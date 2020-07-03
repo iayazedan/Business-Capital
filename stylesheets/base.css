@@ -1,0 +1,598 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+.logo {
+	margin-bottom:30px;
+}
+.icon {
+    vertical-align: middle;
+    width: 130px;
+    height: 130px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #28272c;
+	background-color:#fff;
+    border: 0px;
+    line-height: 1;
+    font-size: 45px;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+	margin:0 auto;
+}
+
+
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #fff;
+		font: 14px/21px 'Source Sans Pro', sans-serif;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL ICONS
+/*-----------------------------------------------------------------------------------*/
+
+.socialme {
+    padding: 0;
+    font-size: 0;
+    height: 26px; 
+	padding-top: 12px;
+	margin: 20px 0;
+}
+.socialme li {
+    display: inline-block;
+    font-family: 'fontello-social';
+    position: relative;
+	margin: 0 5px;
+}
+
+.socialme li a {
+    display: table
+}
+.socialme li a i {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background: none;
+    border: 0px;
+    width: 36px;
+    height: 36px !important;
+    line-height: 1;
+    font-size: 15px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+
+.socialme a .icon-s-pinterest{
+	color: #fff;
+	background-color: #d8545d;
+}
+.socialme a:hover .icon-s-pinterest {
+    color: #d8545d;
+	background-color: #fff;
+}
+
+
+
+.socialme a .icon-s-rss{
+	color: #fff;
+	background-color: #faaa5e;
+}
+.socialme a:hover .icon-s-rss {
+    color: #faaa5e;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-facebook{
+	color: #fff;
+	background-color: #677fb5;
+}
+.socialme a:hover .icon-s-facebook {
+    color: #677fb5;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-twitter{
+	color: #fff;
+	background-color: #70c2e9;
+}
+.socialme a:hover .icon-s-twitter {
+    color: #70c2e9;
+	background-color: #fff;
+}
+
+
+
+.socialme a .icon-s-flickr{
+	color: #fff;
+	background-color: #ff3ba4;
+}
+.socialme a:hover .icon-s-flickr {
+    color: #ff3ba4;
+	background-color: #fff;
+}
+
+
+
+.socialme a .icon-s-dribbble{
+	color: #fff;
+	background-color: #e299c2;
+}
+.socialme a:hover .icon-s-dribbble {
+    color: #e299c2;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-behance{
+	color: #fff;
+	background-color: #42a9fb;
+}
+.socialme a:hover .icon-s-behance {
+    color: #42a9fb;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-linkedin{
+	color: #fff;
+	background-color: #3daccf;
+}
+.socialme a:hover .icon-s-linkedin {
+    color: #3daccf;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-vimeo{
+	color: #fff;
+	background-color: #42b5d4;
+}
+.socialme a:hover .icon-s-vimeo {
+    color: #42b5d4;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-youtube{
+	color: #fff;
+	background-color: #d5615c;
+}
+.socialme a:hover .icon-s-youtube {
+    color: #d5615c;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+.socialme a .icon-s-skype{
+	color: #fff;
+	background-color: #5ecbf3;
+}
+.socialme a:hover .icon-s-skype {
+    color: #5ecbf3;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-tumblr{
+	color: #fff;
+	background-color: #829fb9;
+}
+.socialme a:hover .icon-s-tumblr {
+    color: #829fb9;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-delicious{
+	color: #fff;
+	background-color: #6194dc;
+}
+.socialme a:hover .icon-s-delicious {
+    color: #6194dc;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-500px{
+	color: #fff;
+	background-color: #3bbbe6;
+}
+.socialme a:hover .icon-s-500px {
+    color: #3bbbe6;
+	background-color: #fff;
+}
+
+
+
+.socialme a .icon-s-grooveshark{
+	color: #fff;
+	background-color: #f88e3b;
+}
+.socialme a:hover .icon-s-grooveshark {
+    color: #f88e3b;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-forrst{
+	color: #fff;
+	background-color: #5f9864;
+}
+.socialme a:hover .icon-s-forrst {
+    color: #5f9864;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-digg{
+	color: #fff;
+	background-color: #507faa;
+}
+.socialme a:hover .icon-s-digg {
+    color: #507faa;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-blogger{
+	color: #fff;
+	background-color: #fd893f;
+}
+.socialme a:hover .icon-s-blogger {
+    color: #fd893f;
+	background-color: #fff;
+}
+
+
+
+
+
+.socialme a .icon-s-klout{
+	color: #fff;
+	background-color: #e16747;
+}
+.socialme a:hover .icon-s-klout {
+    color: #e16747;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-dropbox{
+	color: #fff;
+	background-color: #6ba3c5;
+}
+.socialme a:hover .icon-s-dropbox {
+    color: #6ba3c5;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-github{
+	color: #fff;
+	background-color: #fd893f;
+}
+.socialme a:hover .icon-s-github {
+    color: #fd893f;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-songkick{
+	color: #fff;
+	background-color: #ff3b60;
+}
+.socialme a:hover .icon-s-songkick {
+    color: #ff3b60;
+	background-color: #fff;
+}
+
+
+
+
+
+.socialme a .icon-s-posterous{
+	color: #fff;
+	background-color: #efd57c;
+}
+.socialme a:hover .icon-s-posterous {
+    color: #efd57c;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-appnet{
+	color: #fff;
+	background-color: #3daad5;
+}
+.socialme a:hover .icon-s-appnet {
+    color: #3daad5;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-gplus{
+	color: #fff;
+	background-color: #bc7067;
+}
+.socialme a:hover .icon-s-gplus {
+    color: #bc7067;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-stumbleupon{
+	color: #fff;
+	background-color: #f07356;
+}
+.socialme a:hover .icon-s-stumbleupon {
+    color: #f07356;
+	background-color: #fff;
+}
+
+
+
+
+
+
+.socialme a .icon-s-lastfm{
+	color: #fff;
+	background-color: #cd443d;
+}
+.socialme a:hover .icon-s-lastfm {
+    color: #cd443d;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-spotify{
+	color: #fff;
+	background-color: #9acf48;
+}
+.socialme a:hover .icon-s-spotify {
+    color: #9acf48;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-instagram{
+	color: #fff;
+	background-color: #b99682;
+}
+.socialme a:hover .icon-s-instagram {
+    color: #b99682;
+	background-color: #fff;
+}
+
+.socialme a .icon-s-evernote{
+	color: #fff;
+	background-color: #9fdc82;
+}
+.socialme a:hover .icon-s-evernote {
+    color: #9fdc82;
+	background-color: #fff;
+}
+
+
+
+
+
+
+.socialme a .icon-s-paypal{
+	color: #fff;
+	background-color: #5b85a8;
+}
+.socialme a:hover .icon-s-paypal {
+    color: #5b85a8;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-picasa{
+	color: #fff;
+	background-color: #b088c1;
+}
+.socialme a:hover .icon-s-picasa {
+    color: #b088c1;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-soundcloud{
+	color: #fff;
+	background-color: #ff8b45;
+}
+.socialme a:hover .icon-s-soundcloud {
+    color: #ff8b45;
+	background-color: #fff;
+}
+
+
+.socialme a .icon-s-search{
+	color: #fff;
+	background-color: #fa6c65;
+}
+.socialme a:hover .icon-s-search {
+    color: #fa6c65;
+	background-color: #fff;
+}
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "Georgia", "Times New Roman", serif;
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+
+
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		font: 13px 'Source Sans Pro', sans-serif;
+		color: #fff;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+
+

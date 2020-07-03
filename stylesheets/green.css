@@ -1,0 +1,32 @@
+h2 {
+	color: #1abb9c !important;
+}
+
+h2.white {
+	color: #1abb9c !important; 
+}
+.button1,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: #1abb9c !important;
+	color: #e8e8e8 !important;
+}
+
+.button1:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	color: #1abb9c !important;
+	background: #e8e8e8 !important;
+}
+
+.button2 {
+	color: #1abb9c !important;
+}
+.action p {
+	color: #1abb9c !important;
+}
+nav a:hover {
+	color: #1abb9c !important;
+}

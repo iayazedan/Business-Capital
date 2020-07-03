@@ -1,0 +1,32 @@
+h2 {
+	color:cadetblue !important;
+}
+
+h2.white {
+	color:cadetblue !important; 
+}
+.button1,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: cadetblue !important;
+	color: #e8e8e8 !important;
+}
+
+.button1:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	color: cadetblue!important;
+	background: #e8e8e8 !important;
+}
+
+.button2 {
+	color: cadetblue !important;
+}
+.action p {
+	color: cadetblue !important;
+}
+nav a:hover {
+	color: cadetblue !important;
+}
